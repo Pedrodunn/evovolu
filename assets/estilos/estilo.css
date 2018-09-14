@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #304050;
+    position: fixed;
+    top: 0;
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+#rowOne{
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+#imgRowOne{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#rowTwo{
+    background-color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+#rowTwo img{
+    height: 200px;
+    width: 200px;
+}
+
+#rowTwo h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #304050;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.esquerda{
+    display: flex;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rowThree p{
+    font-weight: bolder;
+    font-size: 30pt;
+    padding: 80px;
+    text-transform: uppercase;
+    color: #304050;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #304050;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    width: 96vw;
+}
